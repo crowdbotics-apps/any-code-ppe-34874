@@ -2679,6 +2679,11 @@
   "resolved" "https://registry.npmjs.org/char-regex/-/char-regex-1.0.2.tgz"
   "version" "1.0.2"
 
+"chardet@0.0.8":
+  "integrity" "sha1-oBALXO/kfc1QE20cC6W+uJPZhFI="
+  "resolved" "https://registry.npmjs.org/chardet/-/chardet-0.0.8.tgz"
+  "version" "0.0.8"
+
 "charenc@0.0.2":
   "integrity" "sha1-wKHS86cJLgN3S/qD8UwPxXkKhmc="
   "resolved" "https://registry.npmjs.org/charenc/-/charenc-0.0.2.tgz"
@@ -4373,7 +4378,7 @@
   "resolved" "https://registry.npmjs.org/i/-/i-0.3.7.tgz"
   "version" "0.3.7"
 
-"iconv-lite@0.4.24":
+"iconv-lite@^0.4.4", "iconv-lite@0.4.24":
   "integrity" "sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA=="
   "resolved" "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz"
   "version" "0.4.24"
@@ -7804,6 +7809,14 @@
   "integrity" "sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow="
   "resolved" "https://registry.npmjs.org/statuses/-/statuses-1.5.0.tgz"
   "version" "1.5.0"
+
+"strbuf@*":
+  "integrity" "sha1-YTUmsGxXmo7PJ2BuEivPDckcqHk="
+  "resolved" "https://registry.npmjs.org/strbuf/-/strbuf-0.0.0.tgz"
+  "version" "0.0.0"
+  dependencies:
+    "chardet" "0.0.8"
+    "iconv-lite" "^0.4.4"
 
 "stream-buffers@2.2.x":
   "integrity" "sha1-kdX1Ew0c75bc+n9yaUUYh0HQnuQ="
