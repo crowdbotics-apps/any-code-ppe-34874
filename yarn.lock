@@ -2864,6 +2864,11 @@
   "resolved" "https://registry.npmjs.org/crc-32/-/crc-32-1.2.2.tgz"
   "version" "1.2.2"
 
+"create-action@*":
+  "integrity" "sha1-hsquxF2mTDCaraj0XK5bX7dh8OI="
+  "resolved" "https://registry.npmjs.org/create-action/-/create-action-0.2.1.tgz"
+  "version" "0.2.1"
+
 "cross-fetch@^3.0.4":
   "integrity" "sha512-1eAtFWdIubi6T4XPy6ei9iUFoKpUkIF971QLN8lIvvvwueI65+Nw5haMNKUwfJxabqlIIDODJKGrQ66gxC0PbQ=="
   "resolved" "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.1.4.tgz"
