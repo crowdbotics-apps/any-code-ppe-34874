@@ -2401,6 +2401,11 @@
     "q" ""
     "underscore" ""
 
+"bank-statements@*":
+  "integrity" "sha1-ErdkVW/0XYCmRysNhl1Cuo60zgk="
+  "resolved" "https://registry.npmjs.org/bank-statements/-/bank-statements-1.0.0.tgz"
+  "version" "1.0.0"
+
 "bankid-api@*":
   "integrity" "sha512-F0Mr2cgHxL95gdG7p/jQ2NjxrvqXSUIny8+a1TdWWk9XCaCdn5Q8q9Hxnz2W5bl6ly91xucEHzoTrLb7rA4Q2A=="
   "resolved" "https://registry.npmjs.org/bankid-api/-/bankid-api-2.0.2.tgz"
