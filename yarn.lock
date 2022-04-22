@@ -1818,6 +1818,11 @@
   "resolved" "https://registry.npmjs.org/abab/-/abab-2.0.5.tgz"
   "version" "2.0.5"
 
+"abavalidator@*":
+  "integrity" "sha512-bWtFNjbpBrsaX9+4hdqQ6vuVaAhHuw8pQr2681GiZu+a7Qlb16xADlxXgv1BoJSH+NGQzDJP8FkXxp8OyOFu9A=="
+  "resolved" "https://registry.npmjs.org/abavalidator/-/abavalidator-3.1.2.tgz"
+  "version" "3.1.2"
+
 "abort-controller@^3.0.0":
   "integrity" "sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg=="
   "resolved" "https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz"
