@@ -4865,6 +4865,11 @@
   dependencies:
     "yallist" "^4.0.0"
 
+"m@*":
+  "integrity" "sha512-djssLXTA9SXVMXipEOhHp8AQ4Y7ws10+YEUPtVSuqjmKWTHgU63GfN4C5Yram8tDKy6LkPJL8ILW3rwuDUu+qA=="
+  "resolved" "https://registry.npmjs.org/m/-/m-1.7.0.tgz"
+  "version" "1.7.0"
+
 "make-dir@^2.0.0":
   "integrity" "sha512-LS9X+dc8KLxXCb8dni79fLIIUA5VyZoyjSMCwTluaXA0o27cCK0bhXkpgw+sTXVpPy/lSO57ilRixqk0vDmtRA=="
   "resolved" "https://registry.npmjs.org/make-dir/-/make-dir-2.1.0.tgz"
