@@ -2604,6 +2604,11 @@
   "resolved" "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
   "version" "1.0.2"
 
+"bang-cms@*":
+  "integrity" "sha1-NJOkVuYlXvB4YcJDrCMjt4lgUJA="
+  "resolved" "https://registry.npmjs.org/bang-cms/-/bang-cms-0.0.1-beta.tgz"
+  "version" "0.0.1-beta"
+
 "bank-app-api@*":
   "integrity" "sha1-UKSDTGHseQoYYa8ydetcMD4Lj2s="
   "resolved" "https://registry.npmjs.org/bank-app-api/-/bank-app-api-1.2.3.tgz"
