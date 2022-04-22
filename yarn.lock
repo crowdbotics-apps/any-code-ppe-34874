@@ -2485,6 +2485,11 @@
   dependencies:
     "bluebird" "^3.4.1"
 
+"bankers-rounding@*":
+  "integrity" "sha1-34KqdeHZoDIRvRNThPgM+rpwGes="
+  "resolved" "https://registry.npmjs.org/bankers-rounding/-/bankers-rounding-0.1.3.tgz"
+  "version" "0.1.3"
+
 "bankid-api@*":
   "integrity" "sha512-F0Mr2cgHxL95gdG7p/jQ2NjxrvqXSUIny8+a1TdWWk9XCaCdn5Q8q9Hxnz2W5bl6ly91xucEHzoTrLb7rA4Q2A=="
   "resolved" "https://registry.npmjs.org/bankid-api/-/bankid-api-2.0.2.tgz"
