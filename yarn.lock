@@ -2392,6 +2392,11 @@
     "memoizee" "^0.4.11"
     "request" "^2.81.0"
 
+"bank-routing-number-validator@*":
+  "integrity" "sha1-72vRCPlUBK/r7mHeDoD92xKksrI="
+  "resolved" "https://registry.npmjs.org/bank-routing-number-validator/-/bank-routing-number-validator-0.0.4.tgz"
+  "version" "0.0.4"
+
 "bank-run@*":
   "integrity" "sha1-3AqNL9CDMQ8sFqn7HEEoECrKK3Y="
   "resolved" "https://registry.npmjs.org/bank-run/-/bank-run-0.1.1.tgz"
