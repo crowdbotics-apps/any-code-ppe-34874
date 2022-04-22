@@ -4394,6 +4394,11 @@
   "resolved" "https://registry.npmjs.org/is-negative-zero/-/is-negative-zero-2.0.1.tgz"
   "version" "2.0.1"
 
+"is-not-production@^1.0.0":
+  "integrity" "sha512-KJv0UoJS7xgOK2+UpG7Hpvtt3GWn4L6Xh/jspLwk4/n47JgQmtVheAu482nvCCHb7TxTLRnRag/WZAx2QiR/tw=="
+  "resolved" "https://registry.npmjs.org/is-not-production/-/is-not-production-1.1.0.tgz"
+  "version" "1.1.0"
+
 "is-number-object@^1.0.4":
   "integrity" "sha512-bEVOqiRcvo3zO1+G2lVMy+gkkEm9Yh7cDMRusKKu5ZJKPUYSJwICTKZrNKHA2EbSP0Tu0+6B/emsYNHZyn6K8g=="
   "resolved" "https://registry.npmjs.org/is-number-object/-/is-number-object-1.0.6.tgz"
@@ -4424,6 +4429,11 @@
   "integrity" "sha512-bCYeRA2rVibKZd+s2625gGnGF/t7DSqDs4dP7CrLA1m7jKWz6pps0LpYLJN8Q64HtmPKJ1hrN3nzPNKFEKOUiQ=="
   "resolved" "https://registry.npmjs.org/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.1.tgz"
   "version" "1.0.1"
+
+"is-promise@^2.1.0":
+  "integrity" "sha512-+lP4/6lKUBfQjZ2pdxThZvLUAafmZb8OAxFb8XXtiQmS35INgr85hdOGoEs124ez1FCnZJt6jau/T+alh58QFQ=="
+  "resolved" "https://registry.npmjs.org/is-promise/-/is-promise-2.2.2.tgz"
+  "version" "2.2.2"
 
 "is-regex@^1.1.4":
   "integrity" "sha512-kvRdxDsxZjhzUX07ZnLydzS1TU/TJlTUHHY4YLL87e37oUA49DfkLqgy+VjFocowy29cKvcSiu+kIv728jTTVg=="
@@ -7086,6 +7096,15 @@
     "range-parser" "~1.2.1"
     "statuses" "~1.5.0"
 
+"sequ@*":
+  "integrity" "sha512-7F3lCTC5Iz3yGOr66H05eVOKXLZGKdd1pKX6TrH3N9oJcm1XLK9D6BtJaLzKYqjiztnWoZ3gZUHHsToficfFEg=="
+  "resolved" "https://registry.npmjs.org/sequ/-/sequ-0.1.7.tgz"
+  "version" "0.1.7"
+  dependencies:
+    "is-not-production" "^1.0.0"
+    "is-promise" "^2.1.0"
+    "warning" "^3.0.0"
+
 "serialize-error@^2.1.0":
   "integrity" "sha1-ULZ51WNc34Rme9yOWa9OW4HV9go="
   "resolved" "https://registry.npmjs.org/serialize-error/-/serialize-error-2.1.0.tgz"
@@ -8015,6 +8034,13 @@
   "version" "1.0.8"
   dependencies:
     "makeerror" "1.0.12"
+
+"warning@^3.0.0":
+  "integrity" "sha1-MuU3fLVy3kqwR1O9+IIcAe1gW3w="
+  "resolved" "https://registry.npmjs.org/warning/-/warning-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "loose-envify" "^1.0.0"
 
 "watzdprice@*":
   "integrity" "sha1-cHh5cD4CRqdTTMLtHiDWu9T8uko="
