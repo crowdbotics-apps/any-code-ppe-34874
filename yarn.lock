@@ -2442,6 +2442,11 @@
   "resolved" "https://registry.npmjs.org/bank-statements/-/bank-statements-1.0.0.tgz"
   "version" "1.0.0"
 
+"bankapp123@*":
+  "integrity" "sha1-gN13f6Y/XydJF3cDeAPrLxczQuU="
+  "resolved" "https://registry.npmjs.org/bankapp123/-/bankapp123-1.0.0.tgz"
+  "version" "1.0.0"
+
 "bankatm@*":
   "integrity" "sha1-8HM5K/Lvir922/lBl8VCCNlSqVI="
   "resolved" "https://registry.npmjs.org/bankatm/-/bankatm-1.0.1.tgz"
