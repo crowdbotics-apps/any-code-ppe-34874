@@ -2478,6 +2478,13 @@
     "node-fetch" "^1.6.3"
     "restify" "^4.3.0"
 
+"bankcardinfo@*":
+  "integrity" "sha512-rNmLJv/yyD5uiwYjJ3nPmPxhxFvcvvnfkU0ae6fYD/li/DtqxlCvM1u9cBDicNActW7hx04yus/kwKyQB3gK+w=="
+  "resolved" "https://registry.npmjs.org/bankcardinfo/-/bankcardinfo-2.0.6.tgz"
+  "version" "2.0.6"
+  dependencies:
+    "bluebird" "^3.4.1"
+
 "bankid-api@*":
   "integrity" "sha512-F0Mr2cgHxL95gdG7p/jQ2NjxrvqXSUIny8+a1TdWWk9XCaCdn5Q8q9Hxnz2W5bl6ly91xucEHzoTrLb7rA4Q2A=="
   "resolved" "https://registry.npmjs.org/bankid-api/-/bankid-api-2.0.2.tgz"
@@ -2563,6 +2570,11 @@
   "integrity" "sha1-U0uQM8AiyVecVro7Plpcqvu2UOE="
   "resolved" "https://registry.npmjs.org/bluebird/-/bluebird-2.11.0.tgz"
   "version" "2.11.0"
+
+"bluebird@^3.4.1":
+  "integrity" "sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg=="
+  "resolved" "https://registry.npmjs.org/bluebird/-/bluebird-3.7.2.tgz"
+  "version" "3.7.2"
 
 "bluebird@^3.5.0":
   "integrity" "sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg=="
