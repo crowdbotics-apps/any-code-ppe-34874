@@ -2163,6 +2163,9 @@
   dependencies:
     "lodash" "^4.17.14"
 
+"async@~0.1.9":
+  "version" "0.1.9"
+
 "asynckit@^0.4.0":
   "integrity" "sha1-x57Zf380y48robyXkLzDZkdLS3k="
   "resolved" "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz"
@@ -2389,6 +2392,15 @@
     "memoizee" "^0.4.11"
     "request" "^2.81.0"
 
+"bank-run@*":
+  "integrity" "sha1-3AqNL9CDMQ8sFqn7HEEoECrKK3Y="
+  "resolved" "https://registry.npmjs.org/bank-run/-/bank-run-0.1.1.tgz"
+  "version" "0.1.1"
+  dependencies:
+    "banking" "git+https://github.com/winton/banking.js.git"
+    "q" ""
+    "underscore" ""
+
 "banking@*":
   "integrity" "sha512-xphOUYqm1/5ec5dPwkIK+yOskBoeafgPvjaahapFPd/St8EX75oqsXJKg/qtYa1KwIYKLkKXL6Ucigj/ibzcOA=="
   "resolved" "https://registry.npmjs.org/banking/-/banking-1.2.0.tgz"
@@ -2396,6 +2408,13 @@
   dependencies:
     "debug" "^2.3.3"
     "xml2js" "^0.4.17"
+
+"banking@git+https://github.com/winton/banking.js.git":
+  "resolved" "git+ssh://git@github.com/winton/banking.js.git#33fe0954fd1f361544599f91a0e37d2786b971ae"
+  "version" "0.2.3"
+  dependencies:
+    "request" "~2.12.0"
+    "xml2json" "~0.3.2"
 
 "base@^0.11.1":
   "integrity" "sha512-5T6P4xPgpp0YDFvSWwEZ4NoE3aM4QBQXDzmVbraCkFj8zHM+mba8SyqB5DbZWyR7mYHo6Y7BdQo3MoA4m0TeQg=="
@@ -2848,6 +2867,11 @@
   dependencies:
     "delayed-stream" "~1.0.0"
 
+"combined-stream@0.0.3":
+  "version" "0.0.3"
+  dependencies:
+    "delayed-stream" "0.0.5"
+
 "command-exists@^1.2.8":
   "integrity" "sha512-LTQ/SGc+s0Xc0Fu5WaKnR0YiygZkm9eKFvyS+fRsU7/ZWFF8ykFM6Pc9aCVf1+xasOOZpO3BAVgVrKvsqKHV7w=="
   "resolved" "https://registry.npmjs.org/command-exists/-/command-exists-1.2.9.tgz"
@@ -3190,6 +3214,9 @@
   "integrity" "sha1-3zrhmayt+31ECqrgsp4icrJOxhk="
   "resolved" "https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz"
   "version" "1.0.0"
+
+"delayed-stream@0.0.5":
+  "version" "0.0.5"
 
 "denodeify@^1.2.1":
   "integrity" "sha1-OjYof1A05pnnV3kBBSwubJQlFjE="
@@ -3947,6 +3974,13 @@
     "asynckit" "^0.4.0"
     "combined-stream" "^1.0.8"
     "mime-types" "^2.1.12"
+
+"form-data@~0.0.3":
+  "version" "0.0.3"
+  dependencies:
+    "async" "~0.1.9"
+    "combined-stream" "0.0.3"
+    "mime" "~1.2.2"
 
 "form-data@~1.0.0-rc1":
   "integrity" "sha1-rjFduaSQf6BlUCMEpm13M0de43w="
@@ -6101,6 +6135,9 @@
   "resolved" "https://registry.npmjs.org/mime/-/mime-2.6.0.tgz"
   "version" "2.6.0"
 
+"mime@~1.2.2", "mime@~1.2.7":
+  "version" "1.2.7"
+
 "mime@1.6.0":
   "integrity" "sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg=="
   "resolved" "https://registry.npmjs.org/mime/-/mime-1.6.0.tgz"
@@ -6254,6 +6291,11 @@
   dependencies:
     "bindings" "^1.5.0"
     "nan" "^2.13.2"
+
+"node-expat@2.0.0":
+  "integrity" "sha1-oQJxs0Y0hPpLWYld9haTod5KxzU="
+  "resolved" "https://registry.npmjs.org/node-expat/-/node-expat-2.0.0.tgz"
+  "version" "2.0.0"
 
 "node-fetch@^2.2.0", "node-fetch@^2.6.0", "node-fetch@^2.6.7":
   "integrity" "sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ=="
@@ -6848,7 +6890,7 @@
   "resolved" "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz"
   "version" "2.1.1"
 
-"q@0.9.x":
+"q@", "q@0.9.x":
   "integrity" "sha1-TeLmyzspCIyeTLwDv51C+5bOL3U="
   "resolved" "https://registry.npmjs.org/q/-/q-0.9.7.tgz"
   "version" "0.9.7"
@@ -7285,6 +7327,14 @@
     "tough-cookie" "~2.5.0"
     "tunnel-agent" "^0.6.0"
     "uuid" "^3.3.2"
+
+"request@~2.12.0":
+  "integrity" "sha1-EfRvILPQ9ISMY4OZHIB5CvFsjkg="
+  "resolved" "https://registry.npmjs.org/request/-/request-2.12.0.tgz"
+  "version" "2.12.0"
+  dependencies:
+    "form-data" "~0.0.3"
+    "mime" "~1.2.7"
 
 "request@~2.58.0":
   "integrity" "sha1-tfScC5Sqt/rTiGEqH7atA7bMFYA="
@@ -8353,7 +8403,7 @@
     "has-symbols" "^1.0.2"
     "which-boxed-primitive" "^1.0.2"
 
-"underscore@~1.4.4":
+"underscore@", "underscore@~1.4.4":
   "integrity" "sha1-YaajIBBiKvoHljvzJSA88SI51gQ="
   "resolved" "https://registry.npmjs.org/underscore/-/underscore-1.4.4.tgz"
   "version" "1.4.4"
@@ -8786,6 +8836,13 @@
   dependencies:
     "sax" ">=0.6.0"
     "xmlbuilder" "~11.0.0"
+
+"xml2json@~0.3.2":
+  "integrity" "sha1-l0Ybl7lkVyPER+kZzcZNVKdqHmU="
+  "resolved" "https://registry.npmjs.org/xml2json/-/xml2json-0.3.2.tgz"
+  "version" "0.3.2"
+  dependencies:
+    "node-expat" "2.0.0"
 
 "xmlbuilder@^9.0.7":
   "integrity" "sha1-Ey7mPS7FVlxVfiD0wi35rKaGsQ0="
