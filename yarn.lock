@@ -2041,8 +2041,7 @@
     "object.assign" "^4.1.0"
 
 "babel-plugin-import-glob-meta@github:crowdbotics/babel-plugin-import-glob-meta":
-  "integrity" "sha512-cdMXe55VK6t4DP8B4zL2mOC75kREVyhGhBmuAfsYLHCnlBUBKzI7NKsDf8DJfqV9i01EUt7hrG4XAC/XcXFpRQ=="
-  "resolved" "https://codeload.github.com/crowdbotics/babel-plugin-import-glob-meta/tar.gz/fdffe71d6c97b2c1fc7cdffbaf15dbe1d023dfa5"
+  "resolved" "git+ssh://git@github.com/crowdbotics/babel-plugin-import-glob-meta.git#fdffe71d6c97b2c1fc7cdffbaf15dbe1d023dfa5"
   "version" "1.0.0"
   dependencies:
     "glob" "^7.1.7"
@@ -7381,6 +7380,11 @@
   "version" "2.0.2"
   dependencies:
     "isexe" "^2.0.0"
+
+"wicg-inert@*":
+  "integrity" "sha512-PhBaNh8ur9Xm4Ggy4umelwNIP6pPP1bv3EaWaKqfb/QNme2rdLjm7wIInvV4WhxVHhzA4Spgw9qNSqWtB/ca2A=="
+  "resolved" "https://registry.npmjs.org/wicg-inert/-/wicg-inert-3.1.1.tgz"
+  "version" "3.1.1"
 
 "wmf@~1.0.1":
   "integrity" "sha512-/p9K7bEh0Dj6WbXg4JG0xvLQmIadrner1bi45VMJTfnbVHsc7yIajZyoSoK60/dtVBs12Fm6WkUI5/3WAVsNMw=="
