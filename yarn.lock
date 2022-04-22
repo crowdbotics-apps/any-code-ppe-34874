@@ -2478,6 +2478,11 @@
   "resolved" "https://registry.npmjs.org/bankid-api/-/bankid-api-2.0.2.tgz"
   "version" "2.0.2"
 
+"bankie@*":
+  "integrity" "sha1-SosWAWAqgP7atXZSTQZULoHk4QQ="
+  "resolved" "https://registry.npmjs.org/bankie/-/bankie-1.0.1.tgz"
+  "version" "1.0.1"
+
 "bankin@*":
   "integrity" "sha1-QOHZ7FhbrTXvGqYq0F3B7CRJexM="
   "resolved" "https://registry.npmjs.org/bankin/-/bankin-1.0.0.tgz"
